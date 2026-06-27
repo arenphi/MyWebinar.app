@@ -372,7 +372,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   .animate()
                   .fadeIn(delay: (80 * index).ms)
                   .slideX(begin: 0.05),
-              separatorBuilder: (_, __) => const SizedBox(height: 14),
+              separatorBuilder: (_, _) => const SizedBox(height: 14),
               itemCount: filtered.length,
             ),
           ),
